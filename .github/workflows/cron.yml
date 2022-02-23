@@ -15,7 +15,7 @@ jobs:
       if: success()
       run: |
         docker run \
-        -e SITE_NAME=hoangweb.com \
+        -e SITE_NAME=hoangwebhosting.xxx \
         -e SITE_TOKEN=${{ secrets.token }} \
         -e JOB_NAME=${{ secrets.jobName }} \
         ghcr.io/admicro/hhwjob:latest
